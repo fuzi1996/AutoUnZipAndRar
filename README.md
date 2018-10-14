@@ -1,0 +1,2 @@
+# AutoUnZipAndRar
+自动搜索文件夹下zip和rar文件并解压到当前目录
