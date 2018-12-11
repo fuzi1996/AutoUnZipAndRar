@@ -1,3 +1,4 @@
+package cn.bearmax.autounzipandrar;
 import java.io.File;  
 import java.io.FileOutputStream;  
 import de.innosystec.unrar.Archive;  
@@ -13,7 +14,7 @@ public class UnRARTools {
     public static void unrar(File sourceRar, File destDir) throws Exception {  
         Archive archive = null;  
         FileOutputStream fos = null;  
-        System.out.println("Starting...");  
+        System.out.println("¿ªÊ¼½âÑ¹");  
         try {  
             archive = new Archive(sourceRar);  
             FileHeader fh = archive.nextFileHeader();  

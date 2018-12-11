@@ -1,3 +1,4 @@
+package cn.bearmax.autounzipandrar;
 import java.io.*;
 import java.nio.charset.Charset;
 import java.util.Enumeration;

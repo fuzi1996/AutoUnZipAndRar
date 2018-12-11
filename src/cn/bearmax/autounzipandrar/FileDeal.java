@@ -1,5 +1,5 @@
+package cn.bearmax.autounzipandrar;
 import java.io.File;
-import java.io.IOException;
 public class FileDeal {
 	
 	public static File getFile(String filePath) {
@@ -21,9 +21,9 @@ public class FileDeal {
 					e.printStackTrace();
 				}
 			}else if(endF.equals("zip")){
-				System.out.println(file.getParentFile().getPath());
+				//do something
 			}else {
-				System.out.println(file.getPath());
+				System.out.println(file.getPath()+" 不需要解压");
 			}
 		}else if(file.isDirectory()){
 			String[] files = file.list();
